@@ -36,7 +36,7 @@ export class ProjectAnalyzer {
         fullPath,
         size: stat.size,
         modified: stat.mtime,
-        extension: dirname(file) === '.' ? '' : file.split('.').pop()
+        extension: file.includes('.') ? file.split('.').pop() : ''
       };
 
       structure.files.push(info);

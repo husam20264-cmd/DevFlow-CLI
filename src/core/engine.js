@@ -41,7 +41,7 @@ Project Info:
 - Language: ${projectInfo.summary.language}
 - Package Manager: ${projectInfo.summary.packageManager}
 - Files: ${projectInfo.summary.totalFiles}
-- Entry Points: ${keyFiles.join(', ')}
+- Entry Points: ${projectInfo.keyFiles.join(', ')}
 
 Request: ${request}
 
