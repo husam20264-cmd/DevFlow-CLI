@@ -107,7 +107,7 @@ export OPENAI_API_KEY=your_key_here
 devflow plan "Add user authentication"
 ```
 
-📹 [Watch 30-second demo](https://example.com/demo.gif) (setup → plan → check → pr)
+![DevFlow CLI demo](docs/demo.gif)
 
 ## Commands
 
