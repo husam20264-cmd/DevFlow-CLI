@@ -29,8 +29,8 @@ A privacy-aware AI assistant for software projects, built for developers who wan
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/devflow-cli.git
-cd devflow-cli
+git clone https://github.com/husam20264-cmd/DevFlow-CLI.git
+cd DevFlow-CLI
 npm install
 node bin/devflow.js --help
 ```
