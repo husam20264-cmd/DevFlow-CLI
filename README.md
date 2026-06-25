@@ -2,6 +2,21 @@
   <img src="assets/banner.png" alt="DevFlow CLI" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/husam20264-cmd/DevFlow-CLI/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  </a>
+  <a href="https://github.com/husam20264-cmd/DevFlow-CLI/releases">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  </a>
+  <a href="https://github.com/husam20264-cmd/DevFlow-CLI">
+    <img src="https://img.shields.io/badge/tests-21%20passed-brightgreen.svg" alt="Tests">
+  </a>
+  <a href="https://github.com/husam20264-cmd/DevFlow-CLI">
+    <img src="https://img.shields.io/badge/LLM-5%20providers-purple.svg" alt="LLM Providers">
+  </a>
+</p>
+
 # DevFlow CLI
 
 A privacy-aware AI assistant for software projects, built for developers who want structured implementation plans, safer code changes, and automated project checks from the terminal.
@@ -16,15 +31,43 @@ A privacy-aware AI assistant for software projects, built for developers who wan
 - **PR Draft Generation** — Creates pull-request descriptions with change summaries
 - **Multi-Provider LLM** — Switchable providers for flexibility and privacy
 
-## Supported LLM Providers
+## Free LLM Providers (Open Source)
 
-| Provider | Mode | Default Model |
-|----------|------|---------------|
-| Ollama | Local (offline) | codellama:7b |
-| OpenAI | Cloud | gpt-4o |
-| Anthropic | Cloud | claude-sonnet-4-20250514 |
-| Gemini | Cloud | gemini-2.0-flash |
-| Local (llama.cpp) | Local | Custom model |
+All basic LLM integrations are **free and open source**:
+
+| Provider | Mode | Default Model | Cost |
+|----------|------|---------------|------|
+| Ollama | Local (offline) | codellama:7b | Free |
+| OpenAI | Cloud | gpt-4o | Pay-per-use |
+| Anthropic | Cloud | claude-sonnet-4-20250514 | Pay-per-use |
+| Gemini | Cloud | gemini-2.0-flash | Free tier available |
+| llama.cpp | Local (offline) | Custom model | Free |
+
+## Enterprise Features (Paid)
+
+Need custom integration for your company? [Contact us](https://github.com/husam20264-cmd/DevFlow-CLI/issues)
+
+| Feature | Description |
+|---------|-------------|
+| **Custom Model Integration** | Connect your internal models |
+| **Azure OpenAI** | Use your Azure subscription |
+| **AWS Bedrock** | Enterprise AWS integration |
+| **Vertex AI** | Google Cloud enterprise |
+| **On-Premise Deployment** | Docker/Kubernetes deployment |
+| **SSO & Team Permissions** | SAML, OIDC, role-based access |
+| **Audit Logs** | Track all AI interactions |
+| **Security Policies** | Custom data handling rules |
+| **GitHub/GitLab/Jira/Slack** | Native integrations |
+
+### Enterprise Pricing
+
+| Tier | Price | What's Included |
+|------|-------|-----------------|
+| **Custom Provider** | $300–$800 | Connect your internal model |
+| **Small Business Setup** | $1,000–$2,500 | Full configuration + training |
+| **Monthly Support** | $200–$1,000/mo | Maintenance + updates |
+
+> **We don't sell "add Claude"** — We sell "connect DevFlow to your company's environment, models, and policies."
 
 ## Installation
 
@@ -148,4 +191,8 @@ Run the full test suite covering project analysis, safety guards, file changes, 
 
 ## License
 
-MIT
+MIT — Free for personal and commercial use.
+
+---
+
+**Enterprise inquiries:** [Open an issue](https://github.com/husam20264-cmd/DevFlow-CLI/issues) or contact us directly.
