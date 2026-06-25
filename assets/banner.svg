@@ -48,21 +48,21 @@
     <!-- Code content -->
     <text x="20" y="70" fill="#7ee787" font-family="monospace" font-size="14">$ <tspan fill="#58a6ff">devflow</tspan> setup</text>
     <text x="20" y="100" fill="#8b949e" font-family="monospace" font-size="12">Analyzing project...</text>
-    <text x="20" y="125" fill="#7ee787" font-family="monospace" font-size="12">✅ Project analyzed</text>
+    <text x="20" y="125" fill="#7ee787" font-family="monospace" font-size="12">[OK] Project analyzed</text>
 
     <text x="20" y="165" fill="#7ee787" font-family="monospace" font-size="14">$ <tspan fill="#58a6ff">devflow</tspan> plan "Add auth"</text>
-    <text x="20" y="195" fill="#8b949e" font-family="monospace" font-size="12">📋 Step 1: Create auth module</text>
-    <text x="20" y="215" fill="#8b949e" font-family="monospace" font-size="12">📋 Step 2: Add middleware</text>
-    <text x="20" y="235" fill="#8b949e" font-family="monospace" font-size="12">📋 Step 3: Update routes</text>
+    <text x="20" y="195" fill="#8b949e" font-family="monospace" font-size="12">[1] Step 1: Create auth module</text>
+    <text x="20" y="215" fill="#8b949e" font-family="monospace" font-size="12">[2] Step 2: Add middleware</text>
+    <text x="20" y="235" fill="#8b949e" font-family="monospace" font-size="12">[3] Step 3: Update routes</text>
 
     <text x="20" y="275" fill="#7ee787" font-family="monospace" font-size="14">$ <tspan fill="#58a6ff">devflow</tspan> check</text>
-    <text x="20" y="305" fill="#7ee787" font-family="monospace" font-size="12">✅ Tests passed (21/21)</text>
-    <text x="20" y="325" fill="#7ee787" font-family="monospace" font-size="12">✅ Lint passed</text>
+    <text x="20" y="305" fill="#7ee787" font-family="monospace" font-size="12">[OK] Tests passed (21/21)</text>
+    <text x="20" y="325" fill="#7ee787" font-family="monospace" font-size="12">[OK] Lint passed</text>
 
     <text x="20" y="360" fill="#7ee787" font-family="monospace" font-size="14">$ <tspan fill="#58a6ff">_</tspan></text>
   </g>
 
-  <!-- Title & Description -->
+  <!-- Title and Description -->
   <g transform="translate(620, 120)">
     <!-- Logo icon -->
     <g transform="translate(0, 0)">
@@ -83,13 +83,13 @@
     <!-- Features -->
     <g transform="translate(0, 120)">
       <circle cx="8" cy="8" r="4" fill="#58a6ff"/>
-      <text x="24" y="14" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="16">Project Analysis & Planning</text>
+      <text x="24" y="14" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="16">Project Analysis and Planning</text>
 
       <circle cx="8" cy="48" r="4" fill="#a371f7"/>
       <text x="24" y="54" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="16">Safe File Modifications</text>
 
       <circle cx="8" cy="88" r="4" fill="#3fb950"/>
-      <text x="24" y="94" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="16">Test & Lint Automation</text>
+      <text x="24" y="94" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="16">Test and Lint Automation</text>
 
       <circle cx="8" cy="128" r="4" fill="#f0883e"/>
       <text x="24" y="134" fill="#c9d1d9" font-family="system-ui, sans-serif" font-size="16">PR Draft Generation</text>

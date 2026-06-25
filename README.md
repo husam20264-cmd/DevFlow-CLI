@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="DevFlow CLI" width="100%">
+  <img src="assets/banner.png" alt="DevFlow CLI" width="100%">
 </p>
 
 # DevFlow CLI
