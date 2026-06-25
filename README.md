@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="DevFlow CLI" width="100%">
+</p>
+
 # DevFlow CLI
 
 A privacy-aware AI assistant for software projects, built for developers who want structured implementation plans, safer code changes, and automated project checks from the terminal.
