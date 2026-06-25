@@ -48,12 +48,13 @@ export class ProjectAnalyzer {
 
     structure.directories = await this.getDirectories();
     structure.config = await this.detectConfig();
-    structure.language = await this.detectLanguage();
     structure.packageManager = await this.detectPackageManager();
     structure.gitignore = await this.readGitignore();
-    structure.summary = this.generateSummary(structure);
 
     this.structure = structure;
+    structure.language = await this.detectLanguage();
+    structure.summary = this.generateSummary(structure);
+
     return structure;
   }
 
