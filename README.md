@@ -21,6 +21,28 @@
 
 A privacy-aware AI assistant for software projects, built for developers who want structured implementation plans, safer code changes, and automated project checks from the terminal.
 
+## Getting Started in 60 Seconds
+
+1. Install:
+   ```bash
+   git clone https://github.com/husam20264-cmd/DevFlow-CLI.git
+   cd DevFlow-CLI
+   npm install -g .
+   ```
+
+2. Set up your API key:
+   ```bash
+   export OPENAI_API_KEY=your_key_here
+   # or use any of the 5 supported providers
+   ```
+
+3. Get your first implementation plan:
+   ```bash
+   devflow plan "Add user authentication"
+   ```
+
+4. Review changes and apply with `--apply` when ready
+
 ## Features
 
 - **Project Analysis** — Understands repository structure, language, and configuration before making recommendations
