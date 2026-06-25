@@ -91,14 +91,23 @@ Need custom integration for your company? [Contact us](https://github.com/husam2
 
 > **We don't sell "add Claude"** — We sell "connect DevFlow to your company's environment, models, and policies."
 
-## Installation
+## Quick Start
+
+Get started in 3 simple commands:
 
 ```bash
-git clone https://github.com/husam20264-cmd/DevFlow-CLI.git
-cd DevFlow-CLI
-npm install
-node bin/devflow.js --help
+# 1. Install globally
+npm install -g devflow-cli
+
+# 2. Set up your API key (choose your provider)
+export OPENAI_API_KEY=your_key_here
+# or use Anthropic, Gemini, Ollama, etc.
+
+# 3. Get your first implementation plan
+devflow plan "Add user authentication"
 ```
+
+📹 [Watch 30-second demo](https://example.com/demo.gif) (setup → plan → check → pr)
 
 ## Commands
 
