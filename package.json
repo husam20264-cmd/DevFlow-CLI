@@ -1,0 +1,25 @@
+{
+  "name": "devflow-cli",
+  "version": "1.0.0",
+  "description": "AI-powered CLI assistant for developers - transforms development requests into actionable steps",
+  "main": "src/index.js",
+  "bin": {
+    "devflow": "./bin/devflow.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/devflow.js",
+    "test": "node --test tests/*.test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": ["cli", "ai", "developer-tools", "llm", "code-assistant"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.0",
+    "ora": "^8.0.0",
+    "diff": "^5.2.0",
+    "glob": "^10.4.0"
+  }
+}
